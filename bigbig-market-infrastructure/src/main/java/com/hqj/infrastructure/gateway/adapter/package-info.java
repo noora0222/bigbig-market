@@ -1,0 +1,1 @@
+package com.hqj.infrastructure.gateway.adapter;

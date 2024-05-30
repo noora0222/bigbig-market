@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bigbig-market-trigger" />
+        <module name="bigbig-market-infrastructure" />
+        <module name="bigbig-market-app" />
+        <module name="bigbig-market-domain" />
+        <module name="bigbig-market-types" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bigbig-market" options="-parameters" />
+      <module name="bigbig-market-app" options="-parameters" />
+      <module name="bigbig-market-domain" options="-parameters" />
+      <module name="bigbig-market-infrastructure" options="-parameters" />
+      <module name="bigbig-market-trigger" options="-parameters" />
+      <module name="bigbig-market-types" options="-parameters" />
+    </option>
+  </component>
+</project>
